@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 85vh;
+}
+
+.same{
+    background-color: rgb(184, 176, 197);
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 10px solid rgb(136, 126, 73);
+}
+
+h1,h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+ul{
+    text-decoration: solid;
+    margin-left: 70px;
+    list-style-type: square;
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color: aqua;
+}
+
+@media (max-width: 1250px) {
+    .container {
+      /*flex-direction: column;*/
+      height: 100%;
+    }
+}
